@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc-hanh-admin</title>
+</head>
+<body>
+<script>
+    let userName = prompt("ai vay");
+
+
+    if (userName === "Admin") {
+        let pass = prompt("password");
+        if (pass === "TheMaster"){
+            alert("Welcome!");
+        } else if (pass === null){
+            alert("Canceled");
+        }else {
+            alert("Wrong password")
+        }
+    }else {
+        alert("I don`t know you")
+    }
+</script>
+</body>
+</html>
